@@ -1,0 +1,199 @@
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 187, 0);
+  border-bottom: 5px solid rgb(255, 221, 30);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(124, 93, 7);
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+}
+
+footer {
+  height: 60px;
+  background-color: rgb(255, 187, 0);
+  border-top: 5px solid rgb(255, 221, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  text-decoration: none;
+  color: rgb(124, 93, 7);
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.homeSpace {
+  background-color: rgb(121, 90, 14);
+  max-width: 1920px;
+}
+.homeSpace .homeArea {
+  padding-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 1400px;
+}
+.homeSpace .homeArea .box1 {
+  width: 1200px;
+  height: 365px;
+  background-color: #d8a331;
+  display: flex;
+  justify-content: space-between;
+}
+.homeSpace .homeArea .box1 .text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  border: rgb(51, 34, 3) 20px;
+  border-style: double;
+}
+.homeSpace .homeArea .box1 .text1 p {
+  color: white;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.homeSpace .homeArea .box1 img {
+  width: 365px;
+}
+.homeSpace .homeArea .box2 {
+  width: 1200px;
+  background-color: #d8a331;
+  display: flex;
+  height: 365px;
+  justify-content: space-between;
+}
+.homeSpace .homeArea .box2 .text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  border: rgb(51, 34, 3) 20px;
+  border-style: double;
+}
+.homeSpace .homeArea .box2 .text2 p {
+  color: white;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.homeSpace .homeArea .box2 img {
+  height: 365px;
+  width: 365px;
+  object-fit: cover;
+}
+.homeSpace .homeArea .box3 {
+  width: 1200px;
+  background-color: #d8a331;
+  display: flex;
+  height: 365px;
+  justify-content: space-between;
+}
+.homeSpace .homeArea .box3 .text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  border: rgb(51, 34, 3) 20px;
+  border-style: double;
+}
+.homeSpace .homeArea .box3 .text3 p {
+  color: white;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.homeSpace .homeArea .box3 img {
+  height: 365px;
+  width: 365px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1270px) {
+  .homeSpace .homeArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeSpace .homeArea .box1 {
+    width: 700px;
+  }
+  .homeSpace .homeArea .box1 .text1 p {
+    font-size: 30px;
+  }
+  .homeSpace .homeArea .box2 {
+    width: 700px;
+  }
+  .homeSpace .homeArea .box2 .text2 p {
+    font-size: 30px;
+  }
+  .homeSpace .homeArea .box3 {
+    width: 700px;
+  }
+  .homeSpace .homeArea .box3 .text3 p {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .homeSpace .homeArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeSpace .homeArea .box1 {
+    width: 400px;
+  }
+  .homeSpace .homeArea .box1 .text1 {
+    width: 100px;
+  }
+  .homeSpace .homeArea .box1 .text1 p {
+    font-size: 21px;
+  }
+  .homeSpace .homeArea .box1 img {
+    width: 200px;
+    object-fit: cover;
+  }
+  .homeSpace .homeArea .box2 {
+    width: 400px;
+  }
+  .homeSpace .homeArea .box2 .text2 {
+    width: 100px;
+  }
+  .homeSpace .homeArea .box2 .text2 p {
+    font-size: 19px;
+  }
+  .homeSpace .homeArea .box2 img {
+    width: 200px;
+  }
+  .homeSpace .homeArea .box3 {
+    width: 400px;
+  }
+  .homeSpace .homeArea .box3 .text3 {
+    width: 100px;
+  }
+  .homeSpace .homeArea .box3 .text3 p {
+    font-size: 20px;
+  }
+  .homeSpace .homeArea .box3 img {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

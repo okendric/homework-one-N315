@@ -1,0 +1,17 @@
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 187, 0);
+    border-bottom: 5px solid rgb(255, 221, 30);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(124, 93, 7);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
